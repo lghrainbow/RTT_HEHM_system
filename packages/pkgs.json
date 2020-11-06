@@ -1,1 +1,7 @@
-[]
+[
+ {
+  "path": "/packages/peripherals/touch/gt9147", 
+  "ver": "latest", 
+  "name": "GT9147"
+ }
+]
