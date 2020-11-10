@@ -57,6 +57,7 @@
 
 /* C++ features */
 
+#define RT_USING_CPLUSPLUS
 
 /* Command shell */
 
@@ -77,9 +78,9 @@
 
 #define RT_USING_DFS
 #define DFS_USING_WORKDIR
-#define DFS_FILESYSTEMS_MAX 2
-#define DFS_FILESYSTEM_TYPES_MAX 2
-#define DFS_FD_MAX 16
+#define DFS_FILESYSTEMS_MAX 6
+#define DFS_FILESYSTEM_TYPES_MAX 6
+#define DFS_FD_MAX 32
 #define RT_USING_DFS_DEVFS
 
 /* Device Drivers */
@@ -182,6 +183,7 @@
 #define BSP_USING_GPIO
 #define BSP_USING_UART
 #define BSP_USING_UART4
+#define BSP_USING_I2C
 #define BSP_USING_I2C1
 
 /* Notice: PB6 --> 22; PB7 --> 23 */

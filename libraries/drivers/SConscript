@@ -29,11 +29,29 @@ if GetDepend(['BSP_USING_OV2640']):
 
 if GetDepend(['BSP_USING_TIM']):
     src += Glob('drv_hwtimer.c')
-	
+    
+if GetDepend(['BSP_USING_SPI_LCD_ILI9488']):
+    src += Glob('drv_spi_ili9488.c')
+
 if GetDepend(['RT_USING_I2C', 'RT_USING_I2C_BITOPS']):
     if GetDepend('BSP_USING_I2C1') or GetDepend('BSP_USING_I2C2') or GetDepend('BSP_USING_I2C3') or GetDepend('BSP_USING_I2C4'):
         src += ['drv_soft_i2c.c'] 
+
+if GetDepend(['BSP_USING_ONCHIP_RTC']):
+    src += Glob('drv_rtc.c')
+	
+if GetDepend(['BSP_USING_USBD']):
+    src += Glob('drv_usbd.c')
     
+if GetDepend(['BSP_USING_USBH']):
+    src += ['drv_usbh.c']
+
+if GetDepend(['RT_USING_CAN']):
+    src += ['drv_fdcan.c']
+
+if GetDepend(['BSP_USING_SPI_FLASH']):
+    src += ['drv_spi_flash.c']
+	
 path = [cwd]
 path += [cwd + '/include']
 path += [cwd + '/include/config']

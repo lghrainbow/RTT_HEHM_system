@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>STM32H750xx, USE_HAL_DRIVER, RT_USING_ARM_LIBC</Define>
               <Undefine></Undefine>
-              <IncludePath>applications;rt-thread\libcpu\arm\common;rt-thread\libcpu\arm\cortex-m7;rt-thread\components\drivers\include;rt-thread\components\drivers\include;rt-thread\components\drivers\include;rt-thread\components\drivers\spi;rt-thread\components\drivers\include;rt-thread\components\drivers\include;board;board\port;board\CubeMX_Config\Core\Inc;libraries\drivers;libraries\drivers\include;libraries\drivers\include\config;rt-thread\components\dfs\include;rt-thread\components\dfs\filesystems\devfs;rt-thread\components\finsh;packages\gt9147-latest\inc;.;rt-thread\include;rt-thread\components\libc\compilers\armlibc;rt-thread\components\libc\compilers\common;libraries\STM32H7xx_HAL\STM32H7xx_HAL_Driver\Inc;libraries\STM32H7xx_HAL\CMSIS\Device\ST\STM32H7xx\Include;libraries\STM32H7xx_HAL\CMSIS\Include;rt-thread\components\drivers\touch;rt-thread\components\drivers\include;libraries\touchgfx_lib\TouchGFX;libraries\touchgfx_lib\TouchGFX\target;libraries\touchgfx_lib\TouchGFX\target\generated;libraries\touchgfx_lib\Middlewares\ST\touchgfx\framework\include;libraries\touchgfx_lib\TouchGFX\generated\fonts\include;libraries\touchgfx_lib\TouchGFX\generated\gui_generated\include;libraries\touchgfx_lib\TouchGFX\generated\images\include;libraries\touchgfx_lib\TouchGFX\generated\texts\include;libraries\touchgfx_lib\TouchGFX\gui\include</IncludePath>
+              <IncludePath>applications;rt-thread\components\cplusplus;rt-thread\libcpu\arm\common;rt-thread\libcpu\arm\cortex-m7;rt-thread\components\drivers\include;rt-thread\components\drivers\include;rt-thread\components\drivers\include;rt-thread\components\drivers\spi;rt-thread\components\drivers\include;rt-thread\components\drivers\include;board;board\port;board\CubeMX_Config\Core\Inc;libraries\drivers;libraries\drivers\include;libraries\drivers\include\config;rt-thread\components\dfs\include;rt-thread\components\dfs\filesystems\devfs;rt-thread\components\finsh;packages\gt9147-latest\inc;.;rt-thread\include;rt-thread\components\libc\compilers\armlibc;rt-thread\components\libc\compilers\common;libraries\STM32H7xx_HAL\STM32H7xx_HAL_Driver\Inc;libraries\STM32H7xx_HAL\CMSIS\Device\ST\STM32H7xx\Include;libraries\STM32H7xx_HAL\CMSIS\Include;rt-thread\components\drivers\touch;rt-thread\components\drivers\include;libraries\touchgfx_lib\TouchGFX;libraries\touchgfx_lib\TouchGFX\target;libraries\touchgfx_lib\TouchGFX\target\generated;libraries\touchgfx_lib\Middlewares\ST\touchgfx\framework\include;libraries\touchgfx_lib\TouchGFX\generated\fonts\include;libraries\touchgfx_lib\TouchGFX\generated\gui_generated\include;libraries\touchgfx_lib\TouchGFX\generated\images\include;libraries\touchgfx_lib\TouchGFX\generated\texts\include;libraries\touchgfx_lib\TouchGFX\gui\include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -386,6 +386,36 @@
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>applications\main.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>CPlusPlus</GroupName>
+          <Files>
+            <File>
+              <FileName>cxx_Mutex.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>rt-thread\components\cplusplus\cxx_Mutex.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>cxx_Semaphore.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>rt-thread\components\cplusplus\cxx_Semaphore.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>cxx_Thread.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>rt-thread\components\cplusplus\cxx_Thread.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>cxx_crt.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>rt-thread\components\cplusplus\cxx_crt.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>crt_init.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>rt-thread\components\cplusplus\crt_init.c</FilePath>
             </File>
           </Files>
         </Group>
