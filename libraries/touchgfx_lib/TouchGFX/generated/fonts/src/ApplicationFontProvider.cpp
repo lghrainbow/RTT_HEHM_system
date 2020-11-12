@@ -9,9 +9,18 @@ touchgfx::Font* ApplicationFontProvider::getFont(touchgfx::FontId typography)
 {
     switch (typography)
     {
-    case Typography::LABELS:
-        // NotoSans_Regular_12_4bpp
+    case Typography::DEFAULT:
+        // Roboto_Regular_17_4bpp
         return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[0]);
+    case Typography::SCROLLWHELLTXT:
+        // Roboto_Regular_50_4bpp
+        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[1]);
+    case Typography::SELECT:
+        // Roboto_Medium_20_4bpp
+        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[2]);
+    case Typography::SCROLLWHELLTXT_HIGHLIGHT:
+        // Roboto_Black_58_4bpp
+        return const_cast<touchgfx::Font*>(TypedTextDatabase::getFonts()[3]);
     default:
         return 0;
     }

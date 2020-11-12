@@ -13,13 +13,19 @@ namespace touchgfx
 
 struct Typography
 {
-    static const touchgfx::FontId LABELS = 0;
+    static const touchgfx::FontId DEFAULT = 0;
+    static const touchgfx::FontId SCROLLWHELLTXT = 1;
+    static const touchgfx::FontId SELECT = 2;
+    static const touchgfx::FontId SCROLLWHELLTXT_HIGHLIGHT = 3;
 };
 
 struct TypographyFontIndex
 {
-    static const touchgfx::FontId LABELS = 0; // NotoSans_Regular_12_4bpp
-    static const uint16_t NUMBER_OF_FONTS = 1;
+    static const touchgfx::FontId DEFAULT = 0;                  // Roboto_Regular_17_4bpp
+    static const touchgfx::FontId SCROLLWHELLTXT = 1;           // Roboto_Regular_50_4bpp
+    static const touchgfx::FontId SELECT = 2;                   // Roboto_Medium_20_4bpp
+    static const touchgfx::FontId SCROLLWHELLTXT_HIGHLIGHT = 3; // Roboto_Black_58_4bpp
+    static const uint16_t NUMBER_OF_FONTS = 4;
 };
 
 class ApplicationFontProvider : public touchgfx::FontProvider

@@ -1142,24 +1142,9 @@
               <FilePath>libraries\touchgfx_lib\TouchGFX\generated\fonts\src\FontCache.cpp</FilePath>
             </File>
             <File>
-              <FileName>Font_NotoSans_Regular_12_4bpp_0.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>libraries\touchgfx_lib\TouchGFX\generated\fonts\src\Font_NotoSans_Regular_12_4bpp_0.cpp</FilePath>
-            </File>
-            <File>
               <FileName>GeneratedFont.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>libraries\touchgfx_lib\TouchGFX\generated\fonts\src\GeneratedFont.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>Kerning_NotoSans_Regular_12_4bpp.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>libraries\touchgfx_lib\TouchGFX\generated\fonts\src\Kerning_NotoSans_Regular_12_4bpp.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>Table_NotoSans_Regular_12_4bpp.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>libraries\touchgfx_lib\TouchGFX\generated\fonts\src\Table_NotoSans_Regular_12_4bpp.cpp</FilePath>
             </File>
             <File>
               <FileName>UnmappedDataFont.cpp</FileName>
@@ -1172,19 +1157,9 @@
               <FilePath>libraries\touchgfx_lib\TouchGFX\generated\gui_generated\src\common\FrontendApplicationBase.cpp</FilePath>
             </File>
             <File>
-              <FileName>MainViewBase.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>libraries\touchgfx_lib\TouchGFX\generated\gui_generated\src\main_screen\MainViewBase.cpp</FilePath>
-            </File>
-            <File>
               <FileName>BitmapDatabase.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>libraries\touchgfx_lib\TouchGFX\generated\images\src\BitmapDatabase.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>LanguageGb.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>libraries\touchgfx_lib\TouchGFX\generated\texts\src\LanguageGb.cpp</FilePath>
             </File>
             <File>
               <FileName>Texts.cpp</FileName>
@@ -1195,6 +1170,91 @@
               <FileName>TypedTextDatabase.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>libraries\touchgfx_lib\TouchGFX\generated\texts\src\TypedTextDatabase.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Table_Roboto_Black_58_4bpp.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\fonts\src\Table_Roboto_Black_58_4bpp.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Table_Roboto_Medium_20_4bpp.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\fonts\src\Table_Roboto_Medium_20_4bpp.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Table_Roboto_Regular_17_4bpp.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\fonts\src\Table_Roboto_Regular_17_4bpp.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Table_Roboto_Regular_50_4bpp.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\fonts\src\Table_Roboto_Regular_50_4bpp.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_Roboto_Black_58_4bpp_0.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\fonts\src\Font_Roboto_Black_58_4bpp_0.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_Roboto_Medium_20_4bpp_0.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\fonts\src\Font_Roboto_Medium_20_4bpp_0.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_Roboto_Regular_17_4bpp_0.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\fonts\src\Font_Roboto_Regular_17_4bpp_0.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Font_Roboto_Regular_50_4bpp_0.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\fonts\src\Font_Roboto_Regular_50_4bpp_0.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Kerning_Roboto_Black_58_4bpp.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\fonts\src\Kerning_Roboto_Black_58_4bpp.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Kerning_Roboto_Medium_20_4bpp.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\fonts\src\Kerning_Roboto_Medium_20_4bpp.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Kerning_Roboto_Regular_17_4bpp.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\fonts\src\Kerning_Roboto_Regular_17_4bpp.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Kerning_Roboto_Regular_50_4bpp.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\fonts\src\Kerning_Roboto_Regular_50_4bpp.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Screen1ViewBase.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\gui_generated\src\screen1_screen\Screen1ViewBase.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>imageContainerBase.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\gui_generated\src\containers\imageContainerBase.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>textCenterContainerBase.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\gui_generated\src\containers\textCenterContainerBase.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>textContainerBase.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\gui_generated\src\containers\textContainerBase.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>LanguageGb.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\texts\src\LanguageGb.cpp</FilePath>
             </File>
           </Files>
         </Group>
@@ -1207,19 +1267,34 @@
               <FilePath>libraries\touchgfx_lib\TouchGFX\gui\src\common\FrontendApplication.cpp</FilePath>
             </File>
             <File>
-              <FileName>MainPresenter.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>libraries\touchgfx_lib\TouchGFX\gui\src\main_screen\MainPresenter.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>MainView.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>libraries\touchgfx_lib\TouchGFX\gui\src\main_screen\MainView.cpp</FilePath>
-            </File>
-            <File>
               <FileName>Model.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>libraries\touchgfx_lib\TouchGFX\gui\src\model\Model.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>imageContainer.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\gui\src\containers\imageContainer.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>textCenterContainer.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\gui\src\containers\textCenterContainer.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>textContainer.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\gui\src\containers\textContainer.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Screen1Presenter.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\gui\src\screen1_screen\Screen1Presenter.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Screen1View.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\gui\src\screen1_screen\Screen1View.cpp</FilePath>
             </File>
           </Files>
         </Group>
@@ -1227,24 +1302,124 @@
           <GroupName>TouchGFX_resource</GroupName>
           <Files>
             <File>
-              <FileName>image_Blue_Backgrounds_Main_bg_480x272px.cpp</FileName>
+              <FileName>image_background.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>libraries\touchgfx_lib\TouchGFX\generated\images\src\__designer\image_Blue_Backgrounds_Main_bg_480x272px.cpp</FilePath>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\image_background.cpp</FilePath>
             </File>
             <File>
-              <FileName>image_Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.cpp</FileName>
+              <FileName>image_button.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>libraries\touchgfx_lib\TouchGFX\generated\images\src\__designer\image_Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.cpp</FilePath>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\image_button.cpp</FilePath>
             </File>
             <File>
-              <FileName>image_Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.cpp</FileName>
+              <FileName>image_button_pressed.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>libraries\touchgfx_lib\TouchGFX\generated\images\src\__designer\image_Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.cpp</FilePath>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\image_button_pressed.cpp</FilePath>
             </File>
             <File>
-              <FileName>image_Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.cpp</FileName>
+              <FileName>image_mask.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>libraries\touchgfx_lib\TouchGFX\generated\images\src\__designer\image_Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.cpp</FilePath>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\image_mask.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_radio_button_selected.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\image_radio_button_selected.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_radio_button_selected_pressed.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\image_radio_button_selected_pressed.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_radio_button_unselected.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\image_radio_button_unselected.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_radio_button_unselected_pressed.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\image_radio_button_unselected_pressed.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_scroll_wheel_frame.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\image_scroll_wheel_frame.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_scrollBg.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\image_scrollBg.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_alert.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\Icons\image_alert.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_calendar.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\Icons\image_calendar.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_document.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\Icons\image_document.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_email.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\Icons\image_email.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_folder.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\Icons\image_folder.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_home.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\Icons\image_home.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_inbox.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\Icons\image_inbox.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_map.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\Icons\image_map.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_movie.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\Icons\image_movie.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_news.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\Icons\image_news.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_sound.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\Icons\image_sound.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_tools.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\Icons\image_tools.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_trash.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\Icons\image_trash.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_user.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\libraries\touchgfx_lib\TouchGFX\generated\images\src\Icons\image_user.cpp</FilePath>
             </File>
           </Files>
         </Group>

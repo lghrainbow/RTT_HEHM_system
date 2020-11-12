@@ -6,10 +6,30 @@
 #include <touchgfx/hal/Types.hpp>
 #include <touchgfx/Bitmap.hpp>
 
-const uint16_t BITMAP_BLUE_BACKGROUNDS_MAIN_BG_480X272PX_ID = 0;
-const uint16_t BITMAP_BLUE_SLIDER_VERTICAL_SMALL_INDICATORS_SLIDER3_VERTICAL_ROUND_NOB_ID = 1;
-const uint16_t BITMAP_BLUE_SLIDER_VERTICAL_SMALL_SLIDER3_VERTICAL_ROUND_BACK_ID = 2;
-const uint16_t BITMAP_BLUE_SLIDER_VERTICAL_SMALL_SLIDER3_VERTICAL_ROUND_FILL_ID = 3;
+const uint16_t BITMAP_ALERT_ID = 0;
+const uint16_t BITMAP_BACKGROUND_ID = 1;
+const uint16_t BITMAP_BUTTON_ID = 2;
+const uint16_t BITMAP_BUTTON_PRESSED_ID = 3;
+const uint16_t BITMAP_CALENDAR_ID = 4;
+const uint16_t BITMAP_DOCUMENT_ID = 5;
+const uint16_t BITMAP_EMAIL_ID = 6;
+const uint16_t BITMAP_FOLDER_ID = 7;
+const uint16_t BITMAP_HOME_ID = 8;
+const uint16_t BITMAP_INBOX_ID = 9;
+const uint16_t BITMAP_MAP_ID = 10;
+const uint16_t BITMAP_MASK_ID = 11;
+const uint16_t BITMAP_MOVIE_ID = 12;
+const uint16_t BITMAP_NEWS_ID = 13;
+const uint16_t BITMAP_RADIO_BUTTON_SELECTED_ID = 14;
+const uint16_t BITMAP_RADIO_BUTTON_SELECTED_PRESSED_ID = 15;
+const uint16_t BITMAP_RADIO_BUTTON_UNSELECTED_ID = 16;
+const uint16_t BITMAP_RADIO_BUTTON_UNSELECTED_PRESSED_ID = 17;
+const uint16_t BITMAP_SCROLL_WHEEL_FRAME_ID = 18;
+const uint16_t BITMAP_SCROLLBG_ID = 19;
+const uint16_t BITMAP_SOUND_ID = 20;
+const uint16_t BITMAP_TOOLS_ID = 21;
+const uint16_t BITMAP_TRASH_ID = 22;
+const uint16_t BITMAP_USER_ID = 23;
 
 namespace BitmapDatabase
 {

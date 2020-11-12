@@ -4,13 +4,32 @@
       {
         "Components": [
           {
-            "Type": "Image",
-            "RelativeFilename": "__designer\\Blue_Backgrounds_Main_bg_480x272px.png",
+            "Type": "Box",
+            "Color": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
             "Alpha": 255,
-            "Style": "Image2",
+            "Name": "boxBackground",
+            "X": 0,
+            "Y": 0,
+            "Width": 800,
+            "Height": 480,
+            "Visible": false,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Image",
+            "RelativeFilename": "background.png",
+            "Alpha": 255,
             "Name": "background",
-            "X": 160,
-            "Y": 104,
+            "X": 0,
+            "Y": 0,
             "Width": 480,
             "Height": 272,
             "Visible": true,
@@ -21,24 +40,141 @@
             "Moveable": false
           },
           {
-            "Type": "BoxWithBorder",
+            "Type": "Image",
+            "RelativeFilename": "scrollBg.png",
+            "Alpha": 255,
+            "Name": "scrollBg",
+            "X": 40,
+            "Y": 31,
+            "Width": 400,
+            "Height": 79,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ScrollList",
+            "PaddingBefore": 0,
+            "PaddingAfter": 0,
+            "Snapping": false,
+            "IsHorizontal": true,
+            "IsCircular": true,
+            "ItemTemplateName": "imageContainer",
+            "NumberofItems": 14,
+            "InitialElement": 0,
+            "ItemMargin": 0,
+            "Easing": "Cubic",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0,
+            "Name": "scrollList",
+            "X": 42,
+            "Y": 33,
+            "Width": 396,
+            "Height": 75,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ScrollWheel",
+            "SelectedItemOffset": 153,
+            "UseSelectedStyle": true,
+            "SelectedItemTemplateName": "textCenterContainer",
+            "ExtraSizeBefore": 0,
+            "ExtraSizeAfter": 0,
+            "MarginBefore": 0,
+            "MarginAfter": 0,
+            "IsHorizontal": true,
+            "IsCircular": false,
+            "ItemTemplateName": "textContainer",
+            "NumberofItems": 61,
+            "InitialElement": 0,
+            "ItemMargin": 0,
+            "Easing": "Cubic",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 4.0000000000000018,
+            "DragAcceleration": 1.0,
+            "Name": "scrollWheel",
+            "X": 42,
+            "Y": 35,
+            "Width": 396,
+            "Height": 75,
+            "Visible": false,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Image",
+            "RelativeFilename": "icons\\alert.png",
+            "Alpha": 255,
+            "Name": "selectedIcon",
+            "X": 217,
+            "Y": 159,
+            "Width": 48,
+            "Height": 41,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId1",
+            "TextRotation": "0",
             "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "BorderColor": {
-              "Red": 0,
-              "Green": 0,
+              "Red": 213,
+              "Green": 115,
               "Blue": 0
             },
-            "BorderSize": 1,
             "Alpha": 255,
-            "Name": "graphBackground",
-            "X": 175,
-            "Y": 128,
-            "Width": 389,
-            "Height": 224,
+            "AutoSize": false,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId6",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "Name": "selectedVal",
+            "X": 208,
+            "Y": 150,
+            "Width": 64,
+            "Height": 60,
+            "Visible": false,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "Headline_ScrollList",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 138,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": false,
+            "LineSpacing": 0,
+            "Name": "selectText",
+            "X": 40,
+            "Y": 129,
+            "Width": 400,
+            "Height": 25,
             "Visible": true,
             "LockPosition": false,
             "Draggable": false,
@@ -47,88 +183,38 @@
             "Moveable": false
           },
           {
-            "Type": "DynamicGraph",
-            "DataSeed": 1263446126,
-            "NumberOfValues": 100,
-            "MaxY": 180.0,
-            "MinY": 0.0,
-            "Precision": "1",
-            "UseCustomVisibleDataPointRange": true,
-            "FirstIndex": 0,
-            "LastIndex": 100,
-            "MapDataPointIndexToCustomValue": false,
-            "XAxisOffset": 0.0,
-            "XAxisScale": 1.0,
-            "InsertRandomValues": false,
+            "Type": "Image",
+            "RelativeFilename": "scroll_wheel_frame.png",
             "Alpha": 255,
-            "LabelSizeTop": 10,
-            "LabelSizeBottom": 22,
-            "LabelSizeLeft": 28,
-            "LabelSizeRight": 19,
-            "PaddingTop": 2,
-            "PaddingBottom": 6,
-            "PaddingLeft": 6,
-            "PaddingRight": 0,
-            "GraphType": "GraphWrapClear",
-            "GraphDrawers": [
-              {
-                "Type": "LineDrawer",
-                "LineWidth": 2,
-                "FileNameImage": "",
-                "Color": {
-                  "Red": 20,
-                  "Green": 151,
-                  "Blue": 197
-                },
-                "Alpha": 255
-              }
-            ],
-            "YAxisGrid": {
-              "Type": "GraphGrid",
-              "Color": {
-                "Red": 20,
-                "Green": 151,
-                "Blue": 197
-              },
-              "Interval": 20.0,
-              "LineWidth": 1,
-              "Alpha": 255
+            "Name": "scrollWheelFrame",
+            "X": 192,
+            "Y": 31,
+            "Width": 96,
+            "Height": 79,
+            "Visible": false,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId7",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 138,
+              "Blue": 0
             },
-            "XAxisLabel": {
-              "Type": "GraphLabel",
-              "Interval": 20.0,
-              "NumberOfDecimals": 0,
-              "DecimalSeparator": "Point",
-              "TextColor": {
-                "Red": 0,
-                "Green": 0,
-                "Blue": 0
-              },
-              "TextId": "SingleUseId2",
-              "Alpha": 255,
-              "TextRotation": "0",
-              "Position": "Bottom"
-            },
-            "YAxisLabel": {
-              "Type": "GraphLabel",
-              "Interval": 20.0,
-              "NumberOfDecimals": 0,
-              "DecimalSeparator": "Point",
-              "TextColor": {
-                "Red": 0,
-                "Green": 0,
-                "Blue": 0
-              },
-              "TextId": "SingleUseId1",
-              "Alpha": 255,
-              "TextRotation": "0",
-              "Position": "Left"
-            },
-            "Name": "graph",
-            "X": 175,
-            "Y": 128,
-            "Width": 389,
-            "Height": 224,
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "changeScrollListText",
+            "X": 300,
+            "Y": 227,
+            "Width": 74,
+            "Height": 21,
             "Visible": true,
             "LockPosition": false,
             "Draggable": false,
@@ -137,25 +223,82 @@
             "Moveable": false
           },
           {
-            "Type": "Slider",
-            "IsHorizontalSlider": false,
-            "BackgroundUnselected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
-            "BackgroundSelected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
-            "Indicator": "__designer\\Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
-            "BackgroundX": 7,
-            "BackgroundY": 3,
-            "IndicatorPos": 0,
-            "IndicatorMax": 125,
-            "IndicatorMin": 0,
-            "ValueMax": 250,
-            "ValueMin": 20,
-            "InitValue": 180,
-            "Style": "Style1",
-            "Name": "sliderResolution",
-            "X": 584,
-            "Y": 151,
-            "Width": 34,
-            "Height": 179,
+            "Type": "Image",
+            "RelativeFilename": "mask.png",
+            "Alpha": 255,
+            "Name": "mask",
+            "X": 40,
+            "Y": 31,
+            "Width": 400,
+            "Height": 79,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "RadioButton",
+            "Alpha": 255,
+            "Selected": false,
+            "Deselectable": false,
+            "FileNameSelected": "radio_button_selected.png",
+            "FileNameSelectedPressed": "radio_button_selected_pressed.png",
+            "FileNameUnselected": "radio_button_unselected.png",
+            "FileNameUnselectedPressed": "radio_button_unselected_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup",
+            "Name": "radioButtonScrollWheel",
+            "X": 189,
+            "Y": 217,
+            "Width": 42,
+            "Height": 42,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "RadioButton",
+            "Alpha": 255,
+            "Selected": true,
+            "Deselectable": false,
+            "FileNameSelected": "radio_button_selected.png",
+            "FileNameSelectedPressed": "radio_button_selected_pressed.png",
+            "FileNameUnselected": "radio_button_unselected.png",
+            "FileNameUnselectedPressed": "radio_button_unselected_pressed.png",
+            "RadioButtonGroup": "radioButtonGroup",
+            "Name": "radioButtonScrollList",
+            "X": 253,
+            "Y": 217,
+            "Width": 42,
+            "Height": 42,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 138,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "changeScrollWheelText",
+            "X": 86,
+            "Y": 228,
+            "Width": 93,
+            "Height": 21,
             "Visible": true,
             "LockPosition": false,
             "Draggable": false,
@@ -166,24 +309,141 @@
         ],
         "Interactions": [
           {
-            "InteractionName": "SliderValueChanged",
+            "InteractionName": "scrollListSelectedInteraction",
             "HasCompletedTrigger": false,
             "Trigger": {
-              "Type": "TriggerSliderValueChanged",
-              "TriggerComponent": "sliderResolution"
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonScrollList"
             },
             "Action": {
               "Type": "ActionCustom",
-              "FunctionName": "sliderValueChanged"
+              "FunctionName": "scrollListSelected"
+            }
+          },
+          {
+            "InteractionName": "scrollWheelSelectedInteractionInteraction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerRadioButtonSelected",
+              "TriggerComponent": "radioButtonScrollWheel"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "scrollWheelSelected"
             }
           }
         ],
-        "Name": "Main",
+        "Name": "Screen1",
         "OverrideDefaultBufferSize": false,
-        "CanvasBufferSize": 12000
+        "CanvasBufferSize": 0
       }
     ],
-    "CustomContainerDefinitions": [],
+    "CustomContainerDefinitions": [
+      {
+        "Components": [
+          {
+            "Type": "Image",
+            "RelativeFilename": "icons\\alert.png",
+            "Alpha": 255,
+            "Name": "image",
+            "X": 26,
+            "Y": 14,
+            "Width": 48,
+            "Height": 41,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [],
+        "Name": "imageContainer",
+        "X": 0,
+        "Y": 0,
+        "Width": 100,
+        "Height": 75
+      },
+      {
+        "Components": [
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 213,
+              "Green": 115,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": false,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId3",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "Name": "text",
+            "X": 5,
+            "Y": 5,
+            "Width": 80,
+            "Height": 70,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [],
+        "Name": "textContainer",
+        "X": 0,
+        "Y": 0,
+        "Width": 90,
+        "Height": 75
+      },
+      {
+        "Components": [
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId4",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 213,
+              "Green": 115,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": false,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId5",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "Name": "text",
+            "X": 8,
+            "Y": -1,
+            "Width": 75,
+            "Height": 70,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [],
+        "Name": "textCenterContainer",
+        "X": 0,
+        "Y": 0,
+        "Width": 90,
+        "Height": 75
+      }
+    ],
     "TextEntries": [
       {
         "TextEntryId": "SingleUseId1",
@@ -192,6 +452,46 @@
       {
         "TextEntryId": "SingleUseId2",
         "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId3",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId4",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId5",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId6",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId7",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId8",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "Button_ScrollList",
+        "IsResource": true
+      },
+      {
+        "TextEntryId": "Button_ScrollWheel",
+        "IsResource": true
+      },
+      {
+        "TextEntryId": "Headline_ScrollList",
+        "IsResource": true
+      },
+      {
+        "TextEntryId": "Headline_ScrollWheel",
+        "IsResource": true
       }
     ],
     "Name": "art_pi",
@@ -200,7 +500,7 @@
       "Height": 480
     },
     "SelectedColorDepth": 24,
-    "StartupScreenName": "Main",
+    "StartupScreenName": "Screen1",
     "SelectedStartupLanguage": "GB",
     "Skin": "Blue",
     "TouchGfxPath": "../Middlewares/ST/touchgfx",
