@@ -86,8 +86,8 @@ bool STM32TouchController::sampleTouch(int32_t& x, int32_t& y)
     rt_device_read(dev, 0, read_data, info.point_num);
     if (read_data[0].event == RT_TOUCH_EVENT_DOWN || read_data[0].event == RT_TOUCH_EVENT_MOVE)
     {
-        x = 800 - read_data[0].x_coordinate;
-        y = 480 - read_data[0].y_coordinate;
+        x = read_data[0].x_coordinate;
+        y = read_data[0].y_coordinate;
         return true;
     }
     else
